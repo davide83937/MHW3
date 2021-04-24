@@ -1,0 +1,314 @@
+nav{
+    display: flex;
+    justify-content: flex-end;
+    background-color: gray;
+    padding: 10px;
+}
+
+@media(max-width: 1080px){
+    nav{
+        width: 800px;
+    }
+}
+
+nav a{
+    margin-left: 30px;
+   }
+
+article #titolo{
+    font-size: 30px;
+}
+
+header{
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    height: 500px;
+    background-image: url(header.jpg);
+    background-size: cover;
+    z-index: -1;
+}
+
+@media(max-width: 1080px){
+    header{
+        width: 800px;
+    }
+}
+
+header h1{
+   
+    color: blue;
+    border: 5px solid black;
+    border-radius: 100%;
+    background-color: aqua;
+    z-index: 1;
+    width: 400px;
+    text-align: center;
+}
+
+.overlay{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, .3);
+}
+
+
+
+article{
+    
+    display: flex;
+    flex-direction: column;
+    margin-top: 60px;
+    align-items: center;
+}
+
+
+#grid{
+    
+    display: flex;
+    background-color:royalblue;
+    border: 2px solid black;
+    justify-content: space-between;
+    align-content: space-between;
+    flex-wrap: wrap;
+    width: 1000px;
+    margin-left: 400px;
+}
+
+@media(max-width: 1080px){
+    #grid{
+        width: 750px;
+        
+    }
+}
+
+
+#preferiti{
+    display: flex;
+    flex-direction: column;
+}
+
+#pPreferiti{
+    display: flex;
+}
+
+
+
+#ricerca{
+    margin-bottom: 60px;
+}
+
+.prodotto{
+    
+    background-color: white;
+    border: 2px solid black;
+    flex-wrap: wrap;
+    justify-content: center;
+    display: flex;
+    margin: 20px;
+    width: 280px;
+    height: 700px;
+}
+
+@media(max-width:1080px){
+    .prodotto{
+        width: 300px;
+    }
+}
+
+.prodotto .nome{
+    display: inline-block;
+    border-bottom:3px solid black ;
+}
+
+
+#preferiti
+{
+    background-color: khaki;
+    align-items: center;
+}
+
+#pPreferiti div{
+    display: flex;
+    background-color: lawngreen;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 40px;
+    margin-left: 40px;
+}
+
+#pPreferiti div h1{
+    display: inline-block;
+}
+
+#pPreferiti div h1{
+    display: inline-block;
+}
+
+#pPreferiti div .rimuovi{
+    width: 50px;
+    height: 50px;
+    border: 1px solid black
+ }
+
+ 
+
+
+#pPreferiti div img{
+    margin-top: 10px;
+    height: 100px;
+    width: 150px;
+    
+}
+
+#contpubb{
+    display: flex;
+    flex-direction: row;
+}
+#pubblicita{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    
+    margin-left: 100px;
+    
+}
+
+#film{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#musica{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 100px;
+    border-top:2px solid black ;
+}
+
+#pub .logo img{
+    height: 100px;
+    width: 200px;
+}
+
+#pubblicita img{
+    margin-top: 20px;
+    height: 250px;
+    width: 250px;
+}
+
+#pub{
+    border: 2px solid black;
+    background-color: darkgrey;
+}
+
+.prodotto .contenuto{
+    
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+
+.prodotto .contenuto .clickP{
+    height: 50px;
+    width: 50px;
+}
+
+.hidden{
+    display: none;
+}
+
+.hidden2{
+    visibility: hidden;
+}
+  
+.mostra:hover{
+    color: blueviolet;
+    border-bottom: 1px solid blueviolet;
+}
+
+.descrizione{
+    border-bottom: 2px solid black;
+    margin-left: 10px;
+    margin-right: 10px;
+} 
+
+img{
+    width: 260px;
+    height: 200px;
+    margin-bottom: auto;
+    border: 1px solid black
+}
+
+@media(max-width: 1080px){
+    img{
+    width: 260px;
+    height: 180px;
+    }
+}
+
+
+.contenuto h1{
+    
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+    margin-top: 0px;
+}
+
+
+
+footer{
+    display: flex;
+    margin-top: 50px;
+    justify-content: space-around;
+    background-color: black;
+}
+
+@media(max-width: 1080px){
+    footer{
+        width: 850px;
+    }
+}
+
+footer .flex_footer{
+    display: flex;
+    flex-direction: column;
+}
+
+.flex-footer p{
+    color: white;
+    margin-bottom: 10px;
+}
+
+.flex-footer a{
+    display: block;
+    color: white;
+    margin-bottom: 10px;
+    border:1px solid white;
+    border-radius: 5px;
+    
+}
+
+.titoli{
+    font-size:  20px;
+    display: block;
+    text-align: center;
+    border: 2px solid white;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+#Ingegnere{
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
